@@ -5,12 +5,12 @@ This project focuses on the cleaning and transformation of a comprehensive cars 
 The analysis demonstrates essential data science workflows, including handling missing values, filtering categorical data, and applying mathematical transformations to improve data quality for further modeling.
 
 **Key Objectives**
-The project is divided into several technical stages:
-  Imputation (Data Cleaning): Detecting null values and applying mean imputation to maintain dataset integrity.
-  Frequency Analysis: Utilizing value counts to understand the market share of various car manufacturers (Make).
-  Logical Filtering: Extracting specific subsets of data based on geographical origin (Asia and Europe).
-  Outlier Removal: Streamlining the dataset by removing heavy-weight vehicles (Weight > 4000) to focus on specific vehicle classes.
-  Feature Transformation: Applying functional updates to columns (increasing MPG_City) to simulate performance adjustments or normalization.
+Following questions are answered in the analysis:
+  1) Find all Null Values in the dataset. If there is any null value in any column, then fill it with the mean of that column.
+  2)  Check what are the different types of Make are there in our dataset. And, what is the count (occurrence) of each Make in the data ?
+  3)  Show all the records where Origin is Asia or Europe.
+  4)  Remove all the records (rows) where Weight is above 4000.
+  5)  Increase all the values of 'MPG_City' column by 3.
 
 **Tech Stack**
   Language: Python 3.x
